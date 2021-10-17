@@ -1,0 +1,79 @@
+/* 
+thường chia tỷ lệ như sau:
+mobile: dưới 740px
+tablet: 740<= đến 1023
+PC: >= 1024px 
+*/
+
+/* Mobile */
+@media (max-width: 740px) {
+
+    .s-co-full {
+        width: 100%;
+    }
+
+    .s-co-width {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+    
+    #nav li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden; /*ẩn những cái lòi ra khỏi thẻ header, ở đây phục vụ việc ẩn thẻ con ở giao diện mobile*/
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+} 
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    
+}
